@@ -33,7 +33,7 @@ Automatically checking solutions is performed using a simple but reliable **HTTP
 - Validates the flag format (`CTF{...}`).
 - Can be integrated with a Telegram bot, Discord webhook, etc.
 
-
+---
 
 ![Thank you for your attention to this repository](https://media1.tenor.com/m/yf2J9gTT3rQAAAAC/bye-bye.gif)
 
