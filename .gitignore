@@ -1,0 +1,33 @@
+# IDE
+.idea/
+
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Go
+bin/
+*.test
+*.out
+
+# Logs
+*.log
+
+# Build
+build/
+dist/
+out/
+
+# Coverage
+coverage.out
+coverage.html
+
+# Temp
+*.tmp
+*~
+
+# env file
+.env
