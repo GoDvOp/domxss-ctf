@@ -2,7 +2,7 @@
 
 A set of educational and competitive challenges on DOM-based XSS, designed to practice finding, exploiting, and automating web vulnerabilities. Each challenge is a standalone HTML file hosted on GitHub Pages, and solutions are verified using a custom Go checker.
 
----
+
 
 ## 🎯 Repository Goal
 
@@ -10,7 +10,7 @@ A set of educational and competitive challenges on DOM-based XSS, designed to pr
 - Demonstrate data exfiltration techniques via client-side vectors (e.g., fetch).
 - Provide automated verification of solutions using a Go checker.
 
----
+
 
 ## 🚀 Deployment
 
@@ -23,7 +23,7 @@ All challenges are pure HTML/JS/CSS and do not require a backend. This allows th
 
 No servers, SSL certificates, or configurations—everything out of the box.
 
----
+
 
 ## 🤖 Go Checker
 
@@ -33,7 +33,7 @@ Automatically checking solutions is performed using a simple but reliable **HTTP
 - Validates the flag format (`CTF{...}`).
 - Can be integrated with a Telegram bot, Discord webhook, etc.
 
----
+
 
 ![Thank you for your attention to this repository](https://media1.tenor.com/m/yf2J9gTT3rQAAAAC/bye-bye.gif)
 
