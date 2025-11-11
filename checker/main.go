@@ -21,6 +21,7 @@ func submitHandler(w http.ResponseWriter, r *http.Request) {
 	}
 
 	flag = strings.TrimSpace(flag)
+
 	if validFlags[flag] {
 		fmt.Fprintf(w, "✅ Correct! Flag accepted. \n")
 		log.Printf("[+] Valid flag: %s | from %s", flag, r.RemoteAddr)
