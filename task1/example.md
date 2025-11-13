@@ -5,6 +5,7 @@
 **📖 Description**:  
 We intercepted a shadow agent's internal profile page. It loads user data dynamically using client-side JavaScript. A hidden flag is embedded in the code — but only accessible through exploitation. Prove you can bypass their "security" and exfiltrate the flag.
 
+---
 
 ### 💥 Solution
 
@@ -19,6 +20,9 @@ The page uses `window.location.hash` to load a user alias and inserts it unsafel
     ```
 4.Submit the payload via the input field → the flag is sent to your checker. 
 >💡 Tip: Open DevTools → Network tab to confirm the request was sent!
+
+---
+
 
 ### 🏁 Flag
 
