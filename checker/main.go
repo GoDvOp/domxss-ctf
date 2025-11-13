@@ -9,8 +9,8 @@ import (
 )
 
 var validFlags = map[string]bool{
-	"CTF{d0m_xss_w1th_l0c4lst0r4g3}": true,
-	"CTF{h4sh_b4s3d_xss_1s_r3al}":    true,
+	"CTF{sh4d0w_d0m_xss_1s_r34l}": true,
+	"CTF{h4sh_b4s3d_xss_1s_r3al}": true,
 }
 
 func submitHandler(w http.ResponseWriter, r *http.Request) {
