@@ -17,7 +17,7 @@ The page reads user input from `window.location.hash` (e.g., `#msg=hello`) and i
    ```html
    <span id="secret-flag" data-flag="CTF{h4sh_b4s3d_xss_1s_r3al}"></span>
    ```
-2. Since <script> tags don’t execute when injected via innerHTML, we use an auto-firing HTML event like onerror or onload. 
+2. Since `<script>` tags don’t execute when injected via innerHTML, we use an auto-firing HTML event like onerror or onload. 
 
 3. Inject a payload that exfiltrates the flag:
    ```text
